@@ -1,8 +1,8 @@
 @import url(fonts/TT/stylesheet.css);
 
-::-webkit-scrollbar{
-    /* width: 10px; */
-}
+/* ::-webkit-scrollbar{
+    width: 10px;
+} */
 
 *{
     margin: 0;
