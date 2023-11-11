@@ -1,34 +1,349 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>Cringe Clothes</title>
 </head>
-
 <body>
-    <div class="body_body">
-        <div class="header">
-            <div class="bg1div">
-                <h1 class="logo">LOGO</h1>
-                <span class="slogan">We make the world a better place</span>
-                <img class="bg1" src="bg1.svg" alt="">
+    <div class="body_container">
+        <header class="container header">
+            <nav>
+                <a class="header_font arrow_right" href="">Для мужчин</a>
+                <a class="header_font arrow_right" href="">Для женщин</a>
+                <a class="header_font arrow_right" href="">Для детей</a>
+            </nav>
+
+            <div class="logo">
+                <a href="">
+                    <img src="images/logo.svg" alt="logo">
+                    <h2>the loop</h2>
+                </a>
             </div>
 
-        <div class="bg2div">
-            <div class="circle">
-                <span class="animation"></span>
+            <div class="buy">
+                <div class="header_buy_links">
+                    <a class="header_font" href="">Оплата</a>
+                    <a class="header_font" href="">Доставка</a>
+                </div>
+
+                <div class="header_buy_buttons">
+                    <img src="images/shopping-basket-button.svg" alt="">
+                    <img src="images/basket_indicator.svg" alt="">
+                </div>
+
             </div>
-            <img class="triangle" src="trianle.svg" alt="">
-            <img class="bg2" src="bg2.svg" alt="">
-            <div class="mouse">
-                <img class="mouse_img" src="mouse-outline.svg" alt="">
-                <p class="mouse_text">Scroll with services</p>
-            </div>
-        </div>
-        </div>
+
+        </header>
     </div>
+
+    <main>
+        <section class="slider body_container">
+            <div class="slider_inner container">
+
+                <div class="slider">
+                    <div class="slidetext">
+                        <p>Зимняя распродажа</p>
+                        <h2>СКИДКИ ДО 90%</h2>
+                        <button class="button">
+                            <input type="button" value="СМОТРЕТЬ МОДЕЛИ" class="slider_button button-customize">
+                        </button>
+                    </div>
+
+                    <div class="slide_image">
+                        <img src="images/shoe.svg">
+                        <p class="old_price">9 900 ₴</p>
+                        <p class="new_price">1 900 ₴</p>
+                    </div>
+
+                    <img class="slider_nav" src="images/slider_nav.svg" alt="">
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+        </section>
+
+        <section class="promotion body_container">
+
+            <div class="promotion_inner container">
+                <h2>БЕСПЛАТНАЯ ДОСТАВКА ОТ 3000₴</h2>
+                <p>Сделайте заказ и получите подарок!</p>
+            </div>
+
+        </section>
+
+        <section class="shop body_container">
+            <div class="shop__bg">
+                <div class="shop__bg__dark"></div>
+                <div class="shop__bg__light"></div>
+            </div>
+
+            <div class="shop__collection container">
+
+                    <div class="shop__collection-box">
+                        <div class="shop__collection__text">
+                            <h3 class="shop__collection__title">МУЖСКАЯ <span>КОЛЛЕКЦИЯ</span></h3>
+                            <p class="shop__collection__description">Обувь, полуверы, костюмы</p>
+                            <button class="shop__collection__button button-customize"></button>
+                        </div>  
+                        <img class="shop__collection__image" src="images/men_collection.png" alt="">
+                    </div>
+
+                    <div class="shop__collection-box light-bg">
+                        <div class="shop__collection__text">
+                            <h3 class="shop__collection__title">ЖЕНСКАЯ <span>КОЛЛЕКЦИЯ</span></h3>
+                            <p class="shop__collection__description">Обувь, полуверы, костюмы</p>
+                            <button class="shop__collection__button button-customize"></button>
+                        </div>
+                        <img class="shop__collection__image" src="images/woman_collection.png" alt="">
+                    </div>
+            </div>
+
+
+            <div class="shop__categories container">
+                <div class="shop__categories_item">
+                    <a href="#">
+                        <img src="images/category_light.png">
+                    </a>
+                    <h3>ПЛАТЬЯ</h3>
+                </div>
+                <div class="shop__categories_item">
+                    <a href="#">
+                        <img src="images/category_dark.png">
+                    </a>
+                    <h3>ПЛАТЬЯ</h3>
+                </div>
+                <div class="shop__categories_item">
+                    <a href="#">
+                        <img src="images/category_light.png">
+                    </a>
+                    <h3>ПЛАТЬЯ</h3>
+                </div>
+                <div class="shop__categories_item">
+                    <a href="#">
+                        <img src="images/category_dark.png">
+                    </a>
+                    <h3>ПЛАТЬЯ</h3>
+                </div>
+                <div class="shop__categories_item">
+                    <a href="#">
+                        <img src="images/category_light.png">
+                    </a>
+                    <h3>ПЛАТЬЯ</h3>
+                </div>
+                <div class="shop__categories_item">
+                    <a href="#">
+                        <img src="images/category_dark.png">
+                    </a>
+                    <h3>ПЛАТЬЯ</h3>
+                </div>
+                <div class="shop__categories_item">
+                    <a href="#">
+                        <img src="images/category_light.png">
+                    </a>
+                    <h3>ПЛАТЬЯ</h3>
+                </div>
+                <div class="shop__categories_item">
+                    <a href="#">
+                        <img src="images/category_dark.png">
+                    </a>
+                    <h3>ПЛАТЬЯ</h3>
+                </div>
+
+            </div>
+
+            <div class="shop__new-models container">
+                <h2 class="models__title">Новые модели</h2>
+                <div class="models_card-box">
+                    <div class="models_card">
+                        <img class="card_img" src="images/card_image.png" alt="" >
+                        <p class="card_title">Коктейльное <br>
+                            платье</p>
+                        <p class="card_price">$ 40 000</p>
+                        <div class="card_white-space1"></div>
+                        <div class="card_white-space2"></div>
+                        <div class="card_white-space3"></div>
+                        <div class="card_white-space4"></div>
+                    </div>
+                    <div class="models_card">
+                        <img class="card_img" src="images/card_image.png" alt="" >
+                        <p class="card_title">Коктейльное <br>
+                            платье</p>
+                        <p class="card_price">$ 40 000</p>
+                        <div class="card_white-space1"></div>
+                        <div class="card_white-space2"></div>
+                        <div class="card_white-space3"></div>
+                        <div class="card_white-space4"></div>
+                    </div>
+                    <div class="models_card">
+                        <img class="card_img" src="images/card_image.png" alt="" >
+                        <p class="card_title">Коктейльное <br>
+                            платье</p>
+                        <p class="card_price">$ 40 000</p>
+                        <div class="card_white-space1"></div>
+                        <div class="card_white-space2"></div>
+                        <div class="card_white-space3"></div>
+                        <div class="card_white-space4"></div>
+                    </div>
+                    <div class="models_card">
+                        <img class="card_img" src="images/card_image.png" alt="" >
+                        <p class="card_title">Коктейльное <br>
+                            платье</p>
+                        <p class="card_price">$ 40 000</p>
+                        <div class="card_white-space1"></div>
+                        <div class="card_white-space2"></div>
+                        <div class="card_white-space3"></div>
+                        <div class="card_white-space4"></div>
+                    </div>
+                </div>
+                <button class="new_models_input">
+                    <input class="new_models_button button-customize" type="button" value="ВСЕ МОДЕЛИ">
+                </button>
+            </div>
+
+            
+        </section>
+
+        <section class="gifts body_container">
+            <div class="gifts__container container">
+                <h2>ПОЛУЧАЙТЕ СКИДКИ И ПОДАРКИ</h2>
+                <input class="gifts__email" type="email" name="email" id="email" placeholder="Ваш e-mail">
+                <label for="email">   
+                    <button class="gifts__button button-customize">ПОДПИСАТЬСЯ</button>
+                </label>
+
+            </div>
+
+
+        </section>
+
+        <section class="discount container">
+            <h2 class="models__title">СКИДКИ ДО 90%</h2>
+            <div class="models_card-box">
+                <div class="models_card">
+                    <img class="card_img" src="images/card_image.png" alt="" >
+                    <p class="card_title">Коктейльное <br>
+                        платье</p>
+                    <p class="card_price">$ 40 000</p>
+                    <div class="card_white-space1"></div>
+                    <div class="card_white-space2"></div>
+                    <div class="card_white-space3"></div>
+                    <div class="card_white-space4"></div>
+                </div>
+                <div class="models_card">
+                    <img class="card_img" src="images/card_image.png" alt="" >
+                    <p class="card_title">Коктейльное <br>
+                        платье</p>
+                    <p class="card_price">$ 40 000</p>
+                    <div class="card_white-space1"></div>
+                    <div class="card_white-space2"></div>
+                    <div class="card_white-space3"></div>
+                    <div class="card_white-space4"></div>
+                </div>
+                <div class="models_card">
+                    <img class="card_img" src="images/card_image.png" alt="" >
+                    <p class="card_title">Коктейльное <br>
+                        платье</p>
+                    <p class="card_price">$ 40 000</p>
+                    <div class="card_white-space1"></div>
+                    <div class="card_white-space2"></div>
+                    <div class="card_white-space3"></div>
+                    <div class="card_white-space4"></div>
+                </div>
+                <div class="models_card">
+                    <img class="card_img" src="images/card_image.png" alt="" >
+                    <p class="card_title">Коктейльное <br>
+                        платье</p>
+                    <p class="card_price">$ 40 000</p>
+                    <div class="card_white-space1"></div>
+                    <div class="card_white-space2"></div>
+                    <div class="card_white-space3"></div>
+                    <div class="card_white-space4"></div>
+                </div>
+            </div>
+            <button class="new_models_input">
+                <input class="new_models_button button-customize" type="button" value="ВСЕ МОДЕЛИ">
+            </button>
+
+
+
+        </section>
+    </main>
+
+    <footer class="footer body_container">
+        <section class="footer_inner container">
+            <div class="footer__info">
+
+                <div class="footer__info_about">
+                    <div class="logo">
+                        <a href="">
+                            <img src="images/logo.svg" alt="logo">
+                            <h2>the loop</h2>
+                        </a>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla faucibus egestas elit, at eleifend elit ornare ut.</p>
+                </div>
+
+                <div class="footer__info__useful">
+
+                    <div class="footer__info_links">
+                        <h3 class="list_title">Основные ссылки</h3>
+                        <ul>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Каталог</a></li>
+                            <li><a href="#">Доставка</a></li>
+                            <li><a href="#">Оплата</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__info_categories">
+                        <h3 class="list_title">Категории</h3>
+                        <ul>
+                            <li><a href="#">Мужская одежда</a></li>
+                            <li><a href="#">Женская одежда</a></li>
+                            <li><a href="#">Детская одежда</a></li>
+                            <li><a href="#">Для животных</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__info_tools">
+                        <h3 class="list_title">ПОЛЕЗНЫЕ ССЫЛКИ</h3>
+                        <ul>
+                            <li><a href="#">Таблица размеров</a></li>
+                            <li><a href="#">Блог о моде</a></li>
+                            <li><a href="#">Наша миссия</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__info_social">
+                        <h3 class="list_title">СОЦ СЕТИ</h3>
+                        <ul>
+                            <li><a href="#">VK.com</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </footer>
+
+    <footer class="footer_copyright body_container">
+        <div class="footer__copyright_inner container">
+            <p>Copyright © 2019. Все права защищены</p>
+            <p>Политика приватности</p>
+        </div>
+    </footer>
+
+
 </body>
 </html>
