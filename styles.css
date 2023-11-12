@@ -11,8 +11,9 @@
     background-color: #F9F6F1;
 }
 .container{
-    width: 1110px;
+    max-width: 1110px;
     margin: 0 auto;
+    width: 100%;
     
 }
 
@@ -70,14 +71,17 @@
     display: flex;
     max-width: 100%;
     justify-content: space-between;
+    flex-grow: 1;
+    align-items: center;
 }
 .header_buy_links{
     display: flex;
     gap: 35px;
+    margin-right: 10px;
 }
 .header_buy_buttons{
     display: flex;
-    position: absolute; 
+    /* position: absolute;  */
     gap: 15px;
     right: 0px;
     bottom: 4px;
@@ -350,6 +354,7 @@
     padding: 25px;
     border: 3px solid #D7B399;
     position: relative;
+    max-width: 252px;
 }
 
 .card_title{
@@ -560,4 +565,12 @@
     font-style: normal;
     font-weight: 400;
     line-height: 22px; /* 157.143% */
+}
+
+@media screen and (max-width: 992px) {
+    .container{
+        /* padding-right:10px;
+        padding-left: 10px;
+        max-width: 992px; */
+    }
 }
